@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  /* makes the REM to 10 px, based on the default browser settings*/
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
