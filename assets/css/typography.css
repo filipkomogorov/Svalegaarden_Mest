@@ -1,11 +1,11 @@
 .heading-primary h1{
-    margin: 0;
     font-size: 3rem;
     font-weight: 600;
     color: #fff;
 }
 
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
     width: 32rem;
     margin: 0 auto;
 }
@@ -17,14 +17,22 @@
     margin-top: 5rem;
 }
 
+.heading-tertiary h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
 .paragraph-short p{
     font-size: 1.6rem; /* to be changed to 1.8rem on Web Version*/
     line-height: 2.7rem;
     margin-bottom: 3rem;
+    color: #666;
 }
 
 .paragraph-long p{
     font-size: 1.6rem; /* to be changed to 1.8rem on Web Version*/
     line-height: 2.7rem; /* to be changed to 2.9rem on Web Version*/
     margin-bottom: 3rem;
+    color: #666;
 }
+

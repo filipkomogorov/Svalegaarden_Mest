@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/buttons.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
@@ -19,23 +20,23 @@
             <div class="logo">
                 <a href="#"><img src="assets/image/logo/logo_black.png" alt="Logo of Svalegaarden Mest"></a>
             </div>
-            <!-- <div class="nav-menu">
+            <div class="nav-menu">
                 <ul>
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
-            </div> -->
+            </div>
             <div class="hamburger-menu">
                 <div class="line line-1"></div>
                 <div class="line line-2"></div>
                 <div class="line line-3"></div>
             </div>
         </nav>
-        <div class="header-heading heading-primary">
+        <!-- <div class="header-heading heading-primary">
             <h1>Svaleaarden Mest</h1>
-        </div>
+        </div> -->
     </header>
 
     <main class="main-landing">
@@ -45,7 +46,7 @@
                 confirmations, birthdays or just a cozy gathering. Our team of chefs and waiters is ready to welcome you
                 with a smile and a high gastronomic level.
             </p>
-            <button>About us</button>
+            <button class="btn">About us</button>
         </div>
 
         <div class="main-landing__menu">
@@ -56,7 +57,7 @@
                 <h2>Menu</h2>
                 <p>In this menu item you will find our large selection of gastronomic taste experiences, which are
                     composed based on the best ingredients of the seasons.</p>
-                <button>View menu</button>
+                <button class="btn">View menu</button>
             </div>
         </div>
         <div class="main-landing__events">
@@ -68,20 +69,40 @@
                 <p>Svalegaarden Mest creates the surroundings for all life's events.
                     We want to turn your big events into memorable experiences with a focus on gastronomy and unique
                     surroundings.</p>
-                <button>View events</button>
+                <button class="btn">View events</button>
             </div>
         </div>
     </main>
 
     <aside>
+        <div class="aside__title heading-tertiary">
+            <h3>Lets talk</h3>
+        </div>
         <form class="contact-form">
             <input type="text" required placeholder="Name">
             <input type="email" required placeholder="Email">
             <input type="number" placeholder="Phone number">
-            <textarea cols="30" rows="6"></textarea>
-            <input type="submit" value="Send">
+            <textarea></textarea>
+            <input class="btn-submit" type="submit" value="Send">
         </form>
     </aside>
+
+    <footer>
+        <div class="some">
+            <span><i class="fab fa-instagram-square fa-4x"></i></span>
+            <span><i class="fab fa-facebook-square fa-4x"></i></span>
+        </div>
+        <div class="logo--footer">
+            <img src="assets/image/logo/svalegaarden_logo_grey.svg" alt="Logo of Svalegaarden Mest">
+        </div>
+        <div class="contacts">
+            <p>Einar Packness Vej 2. 9000 Aalborg
+            </p>
+            <p>TEL. KITCHEN: <a href="tel:+4551905554"> +45 51 90 55 54</a></p>
+            <p>TEL. ADMINISTRATION: <a href="tel:+4598135053"> +45 98 13 50 53</a></p>
+            <a href="mailto:info@svalegaarden-mest.dk">info@svalegaarden-mest.dk</a>
+        </div>
+    </footer>
 
 </body>
 
