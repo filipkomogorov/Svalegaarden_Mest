@@ -1,0 +1,10 @@
+/* ===================================
+HEADER MENU
+==================================== */
+
+.header-landing{
+    background-image: url(../../image/menu/menu-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
