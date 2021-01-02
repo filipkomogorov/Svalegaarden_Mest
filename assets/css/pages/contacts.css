@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  /* makes the REM to 10 px, based on the default browser settings*/
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    
+}
+
+header .logo img{
+    width: 23rem;
+    color: #191c27;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+.header-landing{
+    background-image: url(../../image/contacts/summer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* HAMBURGER MENU */
+
+.hamburger-menu{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.hamburger-menu>*:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.nav-menu{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .9);
+    z-index: 10;
+    position: fixed;
+}
+
+.nav-menu ul{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: #191c27;
+}
+
+.nav-menu ul>*:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+.line{
+    width: 2.7rem;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #191c27;
+}
+
+
+.header__navigation{
+    position: relative;
+    height: 3.5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-landing{
+    width: 100%;
+    overflow-x: hidden;
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+.main-landing__heading{
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+.main-landing__menu{
+    grid-column: 1/13;
+    grid-row: 2/3;
+}
+.main-landing-photo {
+   
+}
+
+.main-landing__photo img {
+    margin-bottom: 7rem;
+}
+.paragraph-long p {
+    margin-bottom: 7rem;
+}
+.heading-secondary h2 {
+    margin-top: 4rem;
+}
