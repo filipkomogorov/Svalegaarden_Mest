@@ -1,0 +1,217 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  /* makes the REM to 10 px, based on the default browser settings*/
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/* ===================================
+HEADER
+==================================== */
+
+header{
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    
+}
+
+header .logo img{
+    width: 23rem;
+    color: #191c27;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+
+/* HAMBURGER MENU */
+
+.hamburger-menu{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.hamburger-menu>*:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.nav-menu{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .9);
+    z-index: 10;
+    position: fixed;
+}
+
+.nav-menu ul{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: #191c27;
+}
+
+.nav-menu ul>*:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+.line{
+    width: 2.7rem;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #191c27;
+}
+
+
+.header__navigation{
+    position: relative;
+    height: 3.5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header-landing {
+    background-image: url(../../image/about/About-us-page-first-picture.jpg);
+}
+
+.main-landing{
+    width: 100%;
+    overflow-x: hidden;
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+.main-landing__heading{
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+.main-landing__menu{
+    grid-column: 1/13;
+    grid-row: 2/3;
+}
+
+.main-landing__events{
+    grid-column: 1/13;
+    grid-row: 3/4;
+}
+.main-landing__final {
+    grid-column: 1/13;
+    grid-row-start: 4/4;
+}
+.heading-secondary h2 {
+    margin-top: 4rem;
+}
+.paragraph-short p {
+    margin-bottom: 7rem;
+}
+.paragraph-long p {
+    margin-bottom: 7rem;
+}
+
+.main-landing__events p{
+    margin-bottom: 4rem;
+}
+.main-landing__final img {
+    margin-bottom: 4rem;
+}
+
+/* ===================================
+CONTACT FORM
+====================================== */
+
+aside{
+    width: 100%;
+}
+
+form{
+    width: 31.5rem;
+    margin: 0 auto;
+}
+
+form>*{
+    box-sizing: border-box;
+}
+
+form>*:not(:last-child){
+    width: 31.5rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+form>input:not(:last-child){
+    padding-left: 1rem;
+}
+
+textarea{
+    height: 15rem !important;
+}
+
+/* ===================================
+FOOTER
+====================================== */
+
+footer{
+    margin: 5rem 0 3rem 0;
+}
+
+footer .some{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer .some>*:not(:last-child){
+    margin-right: 3rem;
+}
+
+footer .fab{
+    color: #666;
+}
+
+
+
+footer .logo--footer{
+    width: 29.3rem;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+footer .contacts{
+    width: 29.3rem;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+footer .contacts a,
+footer .contacts p{
+    color: #666;
+    text-decoration: none;
+}
