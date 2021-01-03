@@ -18,6 +18,7 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;  /* makes the REM to 10 px, based on the default browser settings*/
     scroll-behavior: smooth; 
+    overflow-x: hidden !important;
 }
 
 body{
@@ -25,7 +26,6 @@ body{
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
 }
-
 
 
 /* ===================================
@@ -36,26 +36,39 @@ header{
     width: 100%;
     height: 50vh;
     box-sizing: border-box;
-    
 }
 
 header .logo img{
     width: 23rem;
     color: #191c27;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 15px;
 }
+
+
+.header__navigation{
+    height: 3.5rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 100%;
+    align-items: center;
+}
+
+.logo{
+    grid-column: 2/3;
+    justify-self: start;
+    grid-row: 1/2;
+}
+
 
 /* HAMBURGER MENU */
 
 .hamburger-menu{
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
     z-index: 999;
+    grid-column: 11/12;
+    justify-self: end;
 }
 
 .hamburger-menu>*:not(:last-child){
@@ -98,11 +111,21 @@ header .logo img{
 }
 
 
-.header__navigation{
-    position: relative;
-    height: 3.5rem;
-    background-color: rgba(255, 255, 255, 0.5);
+/* MOBILE SIZE PHOTOS OF EACH PAGE'S MAIN CONTENT */
+
+.photo{
+    width: 100%;
+    height: 250px;
+
+    overflow: hidden !important;
 }
+
+.photo img{
+    width: 100%;
+    height: auto;
+    object-position:0 -50px ;
+}
+
 
 
 /* ===================================
@@ -143,6 +166,7 @@ FOOTER
 
 footer{
     margin: 7rem 0 3rem 0;
+
 }
 
 footer .some{
@@ -170,6 +194,7 @@ footer .contacts{
     margin: 0 auto;
     text-align: left;
     font-size: 1.4rem;
+    line-height: 160%;
 }
 
 footer .contacts a,

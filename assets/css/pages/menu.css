@@ -20,15 +20,17 @@ MAIN CONTENT - MENU
 }
 
 .main__seasons{
-    width: 100%;
-    margin: 6rem 0 2rem 0;
+    width: 32rem;
+    
+    margin: 0 auto;
+    margin: 6rem auto 2rem auto;
     
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, auto);
 
-    grid-row-gap: 3rem;
+    grid-row-gap: 3.5rem;
 }
 
 .main__seasons img{
@@ -65,7 +67,7 @@ MAIN CONTENT - MENU
 }
 
 .main__seasons--winter{
-grid-column: 2/7;
+grid-column: 1/7;
 grid-row: 1/2;
 justify-self: start;
 }
@@ -75,7 +77,7 @@ justify-self: start;
 }
 
 .main__seasons--spring{
-    grid-column: 7/12;
+    grid-column: 8/13;
     grid-row: 1/2;
     justify-self: end;
 }
@@ -85,7 +87,7 @@ justify-self: start;
 }
 
 .main__seasons--summer{
-    grid-column: 2/7;
+    grid-column: 1/7;
     grid-row: 2/3;
     justify-self: start;
 }
@@ -95,7 +97,7 @@ justify-self: start;
 }
 
 .main__seasons--autumn{
-    grid-column: 7/12;
+    grid-column: 8/13;
     grid-row: 2/3;
     justify-self: end;
 }

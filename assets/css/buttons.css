@@ -1,10 +1,13 @@
 .btn{
+    display: block;
     width: 12.5rem;
     height: 3rem;
-    border: none;
+    text-align: center;
+    line-height: 3rem;
     background-color: #96192b;
     color: #fff;
     font-size: 1.6rem;
+    text-decoration: none;
     border-radius: 2px;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .3);
 }
