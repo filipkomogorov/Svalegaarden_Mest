@@ -18,11 +18,6 @@ MAIN CONTENT - SUMMER WINTER
     margin: 2rem 0 7rem 0;
 }
 
-.summer-menu__content img{
-    width: 100%;
-    height: 250px;
-}
-
 .summer-menu__menu .heading-secondary>p:not(:first-child):not(:last-child){
     margin-bottom: 0;
 }
