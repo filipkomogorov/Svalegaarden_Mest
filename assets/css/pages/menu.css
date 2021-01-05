@@ -2,7 +2,7 @@
 HEADER HERO IMAGE - MENU
 ==================================== */
 
-.header-landing{
+.header-menu{
     background-image: url(../../image/menu/menu-main.jpg);
     background-size: cover;
     background-position: center;
@@ -16,7 +16,6 @@ MAIN CONTENT - MENU
 
 .main-menu{
     width: 100%;
-    
 }
 
 .main__seasons{
@@ -106,3 +105,67 @@ justify-self: start;
     background-color:rgba(212, 105, 74, .5)
 }
 
+
+
+
+
+
+/* ===================================
+ INIDIVIDUAL MENU PAGES CODE 
+==================================== */
+
+
+/* INDIVIDUAL MENU PAGES MAIN CONTENT LAYOUT */
+
+.seasonal-menu__content h2{
+    margin-bottom: 0 !important;
+   }
+   
+   .seasonal-menu__content p{
+       margin: 2rem 0 7rem 0;
+   }
+   
+   
+   .seasonal-menu__menu .heading-secondary>p:not(:first-child):not(:last-child){
+       margin-bottom: 0;
+   }
+   
+   .seasonal-menu__menu .price{
+       font-weight: 600;
+       margin: 6rem 0;
+   }
+
+
+/* INDIVIDUAL PAGES LANDING IMAGE BACKGROUND PROPERTIES */
+
+.header-winter,
+.header-summer,
+.header-autumn,
+.header-spring{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* AUTUMN LANDING BACKGROUND */
+
+.header-autumn{
+    background-image: url(../../image/menu/autumn.jpg);
+}
+
+/* WINTER LANDING BACKGROUND */
+
+.header-winter{
+    background-image: url(../../image/menu/winter.jpg);
+}
+
+/* SPRING LANDING BACKGROUND */
+.header-spring{
+    background-image: url(../../image/menu/spring.jpg);
+}
+
+/* SUMMER LANDING BACKGROUND */
+
+.header-summer{
+    background-image: url(../../image/menu/summer.jpg);
+}
