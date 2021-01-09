@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Svalegaarden Menu</title>
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/typography.css">
     <link rel="stylesheet" href="assets/css/buttons.css">
-    <link rel="stylesheet" href="assets/css/pages/menu.css">
+    <link rel="stylesheet" href="assets/css/pages/events.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -16,8 +16,7 @@
 </head>
 
 <body>
-
-    <header class="header-menu">
+    <header class="header-events">
         <nav class="header__navigation">
             <div class="nav-wrapper">
                 <div class="logo">
@@ -41,36 +40,48 @@
         </div>
     </header>
 
-    <main class="main-menu">
-        <div class="heading-secondary paragraph-long">
-            <h2>Menu</h2>
-            <p>Discover our wide range of gastronomic flavours. We create our menus based on the best ingredients of the
-                seasons. Our team of chefs lead by the renowned chef Stefan, approaches all events and collaborations
-                with creativity, love for food and a passion to give all quests a memorable experience.
+    <main class="main-content">
+        <div class="main-content__heading heading-secondary paragraph-long">
+            <h2>Events</h2>
+            <p>Svalegaarden Mest creates the surroundings for all life's events.
+                We want to turn your big events into memorable experiences with a focus on gastronomy and unique
+                surroundings. Whether you are having a wedding party or a christening, Svalegaarden Mest is the
+                ideal choice. We are always open to dialogue about your wishes, and we strive, together with you, to
+                achieve the very best. We arrange parties for parties 20 people and up.
             </p>
         </div>
 
-        <div class="main__seasons">
-            <div class="main__seasons--winter">
-                <img src="assets/image/menu/winter.jpg" alt="Picture of the Svaleaarden during winter">
-                <a href="winter.html" class="overlay--winter">Winter</a>
-
+        <div class="main-content__first-section">
+            <div class="photo photo-wedding" id="clicka">
+                <a href="event-wedding.html"><img src="assets/image/events/weding1.jpg"
+                        alt="Picture of a wedding table"></a>
             </div>
-            <div class="main__seasons--spring">
-                <img src="assets/image/menu/spring.jpg" alt="Picture of the Svaleaarden during spring">
-                <a href="spring.html" class="overlay--spring">Spring</a>
-
+            <div class="photo photo-confirmation" id="clickb">
+                <a href="event-wedding.html"><img src="assets/image/events/wedding-main.jpg"
+                        alt="Picture of a wedding table"></a>
             </div>
-            <div class="main__seasons--summer">
-                <img src="assets/image/menu/summer.jpg" alt="Picture of the Svaleaarden during summer">
-                <a href="summer.html" class="overlay--summer">Summer</a>
-            </div>
-            <div class="main__seasons--autumn">
-                <img src="assets/image/menu/autumn.jpg" alt="Picture of the Svaleaarden during autumn">
-                <a href="autumn.html" class="overlay--autumn">Autumn</a>
+            <div class="header heading-secondary paragraph-short">
+                <p>Svalegaarden Mest creates the surroundings for all life's events.
+                    We want to turn your big events into memorable experiences with a focus on gastronomy and unique
+                    surroundings. Whether you are having a wedding party or a christening, Svalegaarden Mest is the
+                    ideal choice. We are always open to dialogue about your wishes, and we strive, together with
+                    you, to achieve the very best. We arrange parties for parties 20 people and up. </p>
             </div>
         </div>
     </main>
+
+    <aside>
+        <div class="aside__title heading-tertiary">
+            <h3>Lets talk</h3>
+        </div>
+        <form class="contact-form">
+            <input type="text" required placeholder="Name">
+            <input type="email" required placeholder="Email">
+            <input type="number" placeholder="Phone number">
+            <textarea></textarea>
+            <input class="btn-submit" type="submit" value="Send">
+        </form>
+    </aside>
 
     <footer>
         <div class="some">
@@ -89,9 +100,7 @@
         </div>
     </footer>
 
-
-    <script src="assets/js/script.js">
-    </script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

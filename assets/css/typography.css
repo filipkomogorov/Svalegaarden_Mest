@@ -8,6 +8,7 @@
 .heading-tertiary {
     width: 32rem;
     margin: 0 auto;
+    color: #fff;
 }
 
 .heading-secondary h2{
@@ -26,18 +27,18 @@
     font-size: 1.6rem; /* to be changed to 1.8rem on Web Version*/
     line-height: 2.7rem;
     margin-bottom: 3rem;
-    color: #666;
+    color: #e3e3e3;
 }
 
 .paragraph-long p{
     font-size: 1.6rem; /* to be changed to 1.8rem on Web Version*/
     line-height: 2.7rem; /* to be changed to 2.9rem on Web Version*/
     margin-bottom: 3rem;
-    color: #666;
+    color: #e3e3e3;
 }
 
 span{
     font-size: 1.8rem;
-    color: #666;
+    color: #e3e3e3;
     font-style: italic;
 }

@@ -1,10 +1,8 @@
 /* 
 COLORS
-
 dark black - #191c27
 light black - #666
 red - #96192b
-
 */
 
 *,
@@ -25,6 +23,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
+    background-color: #191c27;
 }
 
 
@@ -49,25 +48,30 @@ header .logo img{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     position: fixed;
+    z-index: 100;
+}
 
+.nav-wrapper{
+    width: 32rem;
+    height: 100%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: 1fr 2.7rem;
     grid-template-rows: 100%;
     align-items: center;
 }
 
 .logo{
-    grid-column: 2/3;
+    grid-column: 1;
     justify-self: start;
-    grid-row: 1/2;
 }
-
 
 /* HAMBURGER MENU */
 
 .hamburger-menu{
-    z-index: 999;
-    grid-column: 11/12;
+    position: relative;
+    z-index: 9999;
+    grid-column: 2;
     justify-self: end;
 }
 
@@ -76,13 +80,37 @@ header .logo img{
 }
 
 .nav-menu{
-    display: none;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    left:-100%;
     background-color: rgba(255, 255, 255, .9);
     z-index: 10;
     position: fixed;
+    transition: all .3s;
 }
+
+.nav-menu-show{
+    left: 0;
+}
+
+.logo-hide{
+    display: none;
+}
+
+/* 
+.toggle-navigation{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 1rem;
+    top: 3px;
+    z-index: 9999;
+    opacity: 0;
+}
+
+.toggle-navigation:checked ~ .nav-menu{
+    display: block;
+} */
 
 .nav-menu ul{
     position: absolute;
@@ -108,14 +136,28 @@ header .logo img{
     height: 3px;
     border-radius: 2px;
     background-color: #191c27;
+    transition: all .5s ease-in-out;
 }
+
+/* hamburger menu animation */
+
+.hamburger-animation .line-1{
+    width: 3rem;
+    transform: rotateZ(-405deg) translate(-4px, 4px);
+}
+.hamburger-animation .line-3{
+    width: 3rem;
+    transform: rotateZ(405deg) translate(-2px, -2px);
+}
+.hamburger-animation .line-2{
+    display: none;
+}
+/* ACTIVATION OF HAMBURGER */
 
 
 /* ===================================
 MAIN PAGE CONTENT STRUCTURE
 ==================================== */
-
-
 
 .main-content{
     width: 100%;
@@ -132,6 +174,8 @@ MAIN PAGE CONTENT STRUCTURE
 }
 
 .main-content__first-section{
+    z-index: 0;
+    position: relative;
     grid-column: 1/13;
     grid-row: 2/3;
 }
@@ -153,8 +197,54 @@ MAIN PAGE CONTENT STRUCTURE
     margin-bottom: 4rem;
 }
 
+/* CARDS */
 
+.card{
+    width: 32rem;
+    height: 425px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 5rem;
+}
 
+.card__top-part{
+    width: 100%;
+    height: 7.5rem
+}
+
+.card__img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: white;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-image: url(../image/about/about-one.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 6px solid #191c27;
+}
+
+.card--content{
+    width: 100%;
+    height: 350px;
+    background-color: #e3e3e3;
+    box-sizing: border-box;
+    padding: 9rem 3rem 2rem 3rem;
+}
+
+.card--content-title h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card--content-text p{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
 
 /* MOBILE SIZE PHOTOS OF EACH PAGE'S MAIN CONTENT */
 
@@ -231,7 +321,7 @@ footer .some>*:not(:last-child){
 }
 
 footer .fab{
-    color: #666;
+    color: #e3e3e3;
 }
 
 footer .logo--footer{
@@ -239,6 +329,11 @@ footer .logo--footer{
     height: auto;
     margin: 0 auto;
     margin-bottom: 1rem;
+}
+
+footer .logo--footer img{
+    width: 29.3rem;
+    height: auto;
 }
 
 footer .contacts{
@@ -251,6 +346,6 @@ footer .contacts{
 
 footer .contacts a,
 footer .contacts p{
-    color: #666;
+    color: #e3e3e3;
     text-decoration: none;
 }
