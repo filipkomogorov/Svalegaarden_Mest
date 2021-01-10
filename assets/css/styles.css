@@ -199,12 +199,18 @@ MAIN PAGE CONTENT STRUCTURE
 
 /* CARDS */
 
+.card-title h2{
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+}
+
 .card{
     width: 32rem;
     height: 425px;
     margin: 0 auto;
     position: relative;
     margin-bottom: 5rem;
+    
 }
 
 .card__top-part{
@@ -234,6 +240,7 @@ MAIN PAGE CONTENT STRUCTURE
     background-color: #e3e3e3;
     box-sizing: border-box;
     padding: 9rem 3rem 2rem 3rem;
+    border-radius: 2px;
 }
 
 .card--content-title h3{

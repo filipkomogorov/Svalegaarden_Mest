@@ -1,0 +1,139 @@
+.main-content__landing{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+
+.main-content__heading--landing{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    grid-column: 1/13;
+    grid-row: 1/2;
+    padding-bottom: 8rem;
+}
+
+.main-content__first-section--landing{
+    width: 100%;
+    height: 400px;
+    grid-column: 1/13;
+    grid-row: 2/3;
+
+    display: grid;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../image/menu/menu-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content__first-section--landing .heading-secondary h2,
+.main-content__second-section--landing .heading-secondary h2{
+    margin-top: 0;
+}
+
+.main-content__second-section--landing{
+    width: 100%;
+    height: 400px;
+    grid-column: 1/13;
+    display: grid;
+    align-items: center;
+
+    background: linear-gradient(0deg, rgba(150,25,43,0.8), rgba(150,25,43,0.8)), url(../image/events/wedding-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content__second-section--landing{
+    width: 100%;
+    grid-column: 1/13;
+}
+
+.main-content__third-section--landing{
+    width: 100%;
+    grid-column: 1/13;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.heading__content h2{
+    color: #191c27 !important;
+}
+
+.heading__content p{
+    color: #191c27 !important;
+}
+
+/* CARDS */
+
+.card-title h2{
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.card{
+    width: 28rem;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 5rem;
+    
+}
+
+.card__top-part{
+    width: 100%;
+    height: 7.5rem
+}
+
+.card__img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: white;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-size: cover;
+    background-position: center;
+    border: 6px solid #191c27;
+}
+
+.card__img--one{
+    background-image: url(../image/cards/person-one.jpg);
+}
+
+.card__img--two{
+    background-image: url(../image/cards/person-two.jpg);
+}
+
+.card__img--three{
+    background-image: url(../image/cards/person-three.jpg);
+}
+
+.card--content{
+    width: 100%;
+    height: 350px;
+    background-color: #e3e3e3;
+    box-sizing: border-box;
+    padding: 10rem 3rem 2rem 3rem;
+    border-radius: 2px;
+}
+
+.card--content-title h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.card--content-text p{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.card--content-text span{
+    color: #96192b;
+}
