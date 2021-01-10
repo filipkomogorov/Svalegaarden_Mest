@@ -25,4 +25,27 @@
     left: -100% !important;
 }
 
+.header{
+    margin-top: 30rem;
+}
 
+.arrow{
+    position: absolute;
+    z-index: 99;
+}
+
+.arrow-left{
+    left: 0;
+}
+.arrow-right{
+    right: 0;
+}
+
+.arrow-right,
+.arrow-left{
+    box-sizing: border-box;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #96192b;
+    padding: 3rem 2rem;
+}

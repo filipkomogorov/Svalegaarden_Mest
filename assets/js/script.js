@@ -4,7 +4,13 @@ document.querySelector('#hamburger-menu').addEventListener('click', function () 
     document.querySelector('.logo').classList.toggle('logo-hide')
 });
 
-document.querySelector('#clicka').addEventListener('click', function () {
-    document.querySelector('#clicka').classList.toggle('event-move-left')
-    document.querySelector('#clickb').classList.toggle('event-move-right')
-});
+
+document.querySelector('#arrow-right').addEventListener('click', function () {
+    document.querySelector('#event-wedding').classList.toggle('event-move-left')
+    document.querySelector('#event-confirmation').classList.toggle('event-move-right')
+})
+
+document.querySelector('#arrow-left').addEventListener('click', function () {
+    document.querySelector('#event-wedding').classList.toggle('event-move-left')
+    document.querySelector('#event-confirmation').classList.toggle('event-move-right')
+})
