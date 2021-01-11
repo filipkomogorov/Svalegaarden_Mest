@@ -36,11 +36,16 @@
 } 
 
 .main-content__third-section--confirmation{
+    height: 60rem !important;
     grid-row: 4/5;
+    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../../image/events/con400x300/confirmation4.jpg);
 }
 
 .main-content__fourth-section--confirmation{
     grid-row: 5/6;
+    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/con400x300/confirmation5.jpg);
+    margin-bottom: 8rem;
+
 }
 
 .main-content__first-section--confirmation,
@@ -56,11 +61,13 @@
 }
 
 /* FONTS */
+.main-content__first-section--confirmation .heading-secondary h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
 
 .main-content__first-section--confirmation .heading-secondary h2,
-.main-content__second-section--confirmation .heading-secondary h2,
-.main-content__third-section--confirmation .heading-secondary h2,
-.main-content__fourth-section--confirmation .heading-secondary h2{
+.main-content__second-section--confirmation .heading-secondary h2{
     margin-top: 0;
 }
 
