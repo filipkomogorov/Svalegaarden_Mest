@@ -13,8 +13,6 @@
     grid-template-rows: repeat(5, auto);
 }
 
-
-
 .main-content__heading--confirmation{
     width: 100%;
     grid-column: 1/13;
