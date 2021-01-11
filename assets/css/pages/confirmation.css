@@ -16,14 +16,14 @@
 .main-content__heading--confirmation{
     width: 100%;
     grid-column: 1/13;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding-bottom: 5rem;
 }
 
-.main-content__heading--confirmation .heading-secondary h2,
+/* .main-content__heading--confirmation .heading-secondary h2,
 .main-content__heading--confirmation .heading-secondary p{
     color: #191c27;
-}
+} */
 
 .main-content__first-section--confirmation{
     grid-row: 2/3;
