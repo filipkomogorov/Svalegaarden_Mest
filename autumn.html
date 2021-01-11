@@ -18,23 +18,26 @@
 <body>
     <header class="header-autumn">
         <nav class="header__navigation">
-            <div class="logo">
-                <a href="index.html"><img src="assets/image/logo/logo_black.png" alt="Logo of Svalegaarden Mest"></a>
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
-                </ul>
-            </div>
-            <div class="hamburger-menu">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/image/logo/logo_black.png"
+                            alt="Logo of Svalegaarden Mest"></a>
+                </div>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
             </div>
         </nav>
+        <div class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
     </header>
 
     <main class="seasonal-menu__content">
@@ -101,7 +104,7 @@
             <span><i class="fab fa-facebook-square fa-3x"></i></span>
         </div>
         <div class="logo--footer">
-            <img src="assets/image/logo/svalegaarden_logo_grey.svg" alt="Logo of Svalegaarden Mest">
+            <img src="assets/image/logo/logo_white.png" alt="Logo of Svalegaarden Mest">
         </div>
         <div class="contacts">
             <p>Einar Packness Vej 2. 9000 Aalborg
@@ -113,7 +116,7 @@
     </footer>
 
 
-
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

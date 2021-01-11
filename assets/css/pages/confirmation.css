@@ -1,6 +1,81 @@
-.header-wedding{
-    background-image: url(../../image/events/weding1.jpg);
+.header-confirmation{
+    background-image: url(../../image/events/con400x300/main-confirmation.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.main-content--confirmation{
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, auto);
+}
+
+
+
+.main-content__heading--confirmation{
+    width: 100%;
+    grid-column: 1/13;
+    background-color: #fff;
+    padding-bottom: 5rem;
+}
+
+.main-content__heading--confirmation .heading-secondary h2,
+.main-content__heading--confirmation .heading-secondary p{
+    color: #191c27;
+}
+
+.main-content__first-section--confirmation{
+    grid-row: 2/3;
+    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../../image/events/con400x300/confirmation2.jpg);
+}
+
+.main-content__second-section--confirmation{
+    grid-row: 3/4;
+    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/con400x300/confirmation3.jpg);
+} 
+
+.main-content__third-section--confirmation{
+    grid-row: 4/5;
+}
+
+.main-content__fourth-section--confirmation{
+    grid-row: 5/6;
+}
+
+.main-content__first-section--confirmation,
+.main-content__second-section--confirmation,
+.main-content__third-section--confirmation,
+.main-content__fourth-section--confirmation{
+    height: 35rem;
+    grid-column: 1/13;
+    display: grid;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/* FONTS */
+
+.main-content__first-section--confirmation .heading-secondary h2,
+.main-content__second-section--confirmation .heading-secondary h2,
+.main-content__third-section--confirmation .heading-secondary h2,
+.main-content__fourth-section--confirmation .heading-secondary h2{
+    margin-top: 0;
+}
+
+.confirmation-menu__list h3{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.confirmation-menu__list ul{
+    list-style: none;
+}
+
+.confirmation-menu__list li{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
