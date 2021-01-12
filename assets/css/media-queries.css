@@ -247,6 +247,33 @@ EVENTS PAGE SPECIFIC CODE FROM EVENTS.CSS
     background-image: url(../image/hero_images/events_desktop.jpg);
 }
 
+/*=======================================
+WEDDING PAGE SPECIFIC CODE FROM WEDDING.CSS
+===========================================*/
+
+.header-wedding{
+    background-image: url(../image/events/Wedding/1360x500/wedding_main.jpg);
+}
+
+.main-content__first-section--wedding{
+    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../image/events/Wedding/800x400/wedding.jpg);
+}
+
+/*=======================================
+CONFIMATION PAGE SPECIFIC CODE FROM CONFIRMATION.CSS
+===========================================*/
+
+.header-confirmation{
+    background-image: url(../image/events/Confimation/1360x500/con7.jpg);
+}
+
+/*=======================================
+CONTACTS PAGE SPECIFIC CODE FROM CONTACTS.CSS
+===========================================*/
+
+.header-contacts{
+    background-image: url(../image/hero_images/landing_desktop.jpg);
+}
 
 }
 

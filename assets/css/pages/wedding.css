@@ -1,5 +1,6 @@
 .header-wedding{
-    background-image: url(../../image/events/weding1.jpg);
+    background-image: url(../../image/events/Wedding/400x300/weding1.jpg);
+    /* image taken from unsplash https://unsplash.com/photos/O38Id_cyV4M */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +34,7 @@
     display: grid;
     align-items: center;
 
-background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/wed400x300/wed3.jpg);
+background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/Wedding/400x300/wed1.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 .header-confirmation{
-    background-image: url(../../image/events/con400x300/main-confirmation.jpg);
+    background-image: url(../../image/events/Confimation/400x300/main-confirmation.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,23 +27,23 @@
 
 .main-content__first-section--confirmation{
     grid-row: 2/3;
-    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../../image/events/con400x300/confirmation2.jpg);
+    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../../image/events/Confimation/400x300/confirmation2.jpg);
 }
 
 .main-content__second-section--confirmation{
     grid-row: 3/4;
-    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/con400x300/confirmation3.jpg);
+    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/Confimation/400x300/confirmation3.jpg);
 } 
 
 .main-content__third-section--confirmation{
     height: 60rem !important;
     grid-row: 4/5;
-    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../../image/events/con400x300/confirmation4.jpg);
+    background: linear-gradient(0deg, rgba(10,11,15,0.8), rgba(10,11,15,0.8)), url(../../image/events/Confimation/400x300/confirmation1.jpg);
 }
 
 .main-content__fourth-section--confirmation{
     grid-row: 5/6;
-    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/con400x300/confirmation5.jpg);
+    background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/Confimation/400x300/confirmation5.jpg);
     margin-bottom: 8rem;
 
 }
