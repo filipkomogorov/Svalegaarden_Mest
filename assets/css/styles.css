@@ -46,7 +46,7 @@ header .logo img{
 .header__navigation{
     height: 3.5rem;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     position: fixed;
     z-index: 100;
 }
@@ -82,7 +82,7 @@ header .logo img{
 .nav-menu{
     width: 100vw;
     height: 100vh;
-    left:-100%;
+    left:-200%;
     background-color: rgba(255, 255, 255, .9);
     z-index: 10;
     position: fixed;
@@ -96,21 +96,6 @@ header .logo img{
 .logo-hide{
     display: none;
 }
-
-/* 
-.toggle-navigation{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 1rem;
-    top: 3px;
-    z-index: 9999;
-    opacity: 0;
-}
-
-.toggle-navigation:checked ~ .nav-menu{
-    display: block;
-} */
 
 .nav-menu ul{
     position: absolute;
@@ -152,11 +137,10 @@ header .logo img{
 .hamburger-animation .line-2{
     display: none;
 }
-/* ACTIVATION OF HAMBURGER */
 
 
 /* ===================================
-MAIN PAGE CONTENT STRUCTURE
+MAIN PAGE CONTENT STRUCTURE FOR MOST PAGES
 ==================================== */
 
 .main-content{
@@ -199,12 +183,11 @@ MAIN PAGE CONTENT STRUCTURE
 }
 
 
-
 /* MOBILE SIZE PHOTOS OF EACH PAGE'S MAIN CONTENT */
 
 .photo{
     width: 100%;
-    height: 250px;
+    height: 25rem;
 
     overflow: hidden !important;
 }
@@ -218,7 +201,7 @@ MAIN PAGE CONTENT STRUCTURE
 
 
 /* ===================================
-CONTACT FORM
+CONTACT FORM FOR ALL PAGES
 ====================================== */
 
 aside{
@@ -250,7 +233,7 @@ textarea{
 }
 
 /* ===================================
-FOOTER
+FOOTER FOR ALL PAGES
 ====================================== */
 
 footer{
@@ -295,4 +278,92 @@ footer .contacts a,
 footer .contacts p{
     color: #e3e3e3;
     text-decoration: none;
+}
+
+
+/* .heading-primary h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+} */
+
+.heading-secondary,
+.heading-tertiary {
+    width: 32rem;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.heading-secondary h2{
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+
+.heading-tertiary h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.paragraph-short p{
+    font-size: 1.6rem; /*1.8rem on Web and Tablet Version*/
+    line-height: 2.7rem;
+    margin-bottom: 2rem;
+    color: #e3e3e3;
+}
+
+.paragraph-long p{
+    font-size: 1.6rem; /* 1.8rem on Web and Tablet Version*/
+    line-height: 2.7rem; /* 2.9rem on Web and Tablet Version*/
+    margin-bottom: 2rem;
+    color: #e3e3e3;
+}
+
+.some span{
+    font-size: 1.8rem;
+    color: #e3e3e3;
+    font-style: italic;
+}
+
+
+/*===================================== 
+BUTTONS FOR ALL PAGES
+======================================*/
+
+
+.btn{
+    display: block;
+    width: 12.5rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #96192b;
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .3);
+}
+
+.btn--blue{
+    background-color: #191c27 !important;
+}
+
+.btn:hover{
+    filter: brightness(130%);
+}
+
+.btn:active{
+    transform: translateY(10%);
+}
+
+.btn-submit{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background-color: #96192b;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 2px;
 }
