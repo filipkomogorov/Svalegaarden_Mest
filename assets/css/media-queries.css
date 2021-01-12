@@ -93,6 +93,10 @@ footer{
 
 /* TYPOGRAPHY */
 
+.heading-primary{
+    width: 52rem;
+}
+
 .heading-secondary,
 .heading-tertiary {
     width: 52rem;
@@ -129,6 +133,7 @@ footer{
     font-size: 2rem;
     line-height: 4rem;
 }
+
 
 .btn-submit{
     width: 12rem;
@@ -278,3 +283,265 @@ CONTACTS PAGE SPECIFIC CODE FROM CONTACTS.CSS
 }
 
 
+
+
+/*=======================================
+MEDIA QUERY FOR LAPTOPS
+===========================================*/
+
+
+@media only screen and (min-width:768px){
+
+/* HEADER */
+
+    header{
+        height: 70vh !important;
+    }
+
+    .header__navigation{
+        height: 6rem;
+    }
+
+    .nav-wrapper{
+       width: 120rem;
+
+       grid-template-columns: repeat(2, auto);
+    }
+
+    .logo{
+        justify-self: start;
+    }
+
+    .logo img{
+        width: 30rem !important;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .nav-menu--desktop{
+        display: block;
+        justify-self: end;
+    }
+    .nav-menu--desktop ul{
+        list-style: none;
+    }
+
+    .nav-menu--desktop ul li{
+        display: inline;
+    }
+
+    .nav-menu--desktop ul>*:not(:first-child){
+        margin-left: 3rem;
+    }
+
+    .nav-menu--desktop ul li a {
+        text-decoration: none;
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        color: #191c27;
+    }
+
+    .nav-menu--desktop ul li a:hover{
+        color: #c02038;
+    }
+
+
+/* CONTACT FORM */
+
+aside .heading-tertiary h3{
+    text-align: center;
+}
+
+form{
+    width: 60rem;
+    margin: 0 auto;
+}
+
+form>*:not(:last-child){
+    width: 60rem;
+}
+
+textarea{
+    resize: none;
+}
+
+
+/* FOOTER */
+
+
+footer .contacts{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+/* TYPOGRAPHY */
+
+.heading-primary{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.heading-primary h2{
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+
+.heading-secondary,
+.heading-tertiary{
+    width: 49rem;
+
+}
+
+.heading-secondary h2,
+.heading-tertiary h3{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph-long p{
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.paragraph-short p{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+/* BUTTONS */
+
+.btn,
+.btn-submit{
+    width: 17rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    color: white;
+}
+
+.btn--blue{
+    background-color: #96192b !important;
+}
+
+
+/*=======================================
+LANDIGN PAGE SPECIFIC CODE FROM LANDING.CSS
+===========================================*/
+
+.header-landing{
+    background-image: url(../image/hero_images/landing_desktop.jpg);
+}
+
+.main-content__first-section--landing{
+    margin-bottom: 5rem !important;
+}
+
+.main-content__first-section--landing,
+.main-content__second-section--landing{
+    width: 114rem;
+    height: 55rem;
+    margin: 0 auto;
+    display: grid;
+    background: none;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1;
+}
+
+ .landing__img{
+    display: block;
+    width: 57rem;
+    height: 55rem;
+}
+
+.main-content__first-section--landing .landing__img{
+    background-image: url(../image/landing/570x550/menu.jpg);
+    grid-column: 1/7;
+}
+
+.main-content__first-section--landing .heading-secondary{
+    margin: 0;
+    grid-column: 7/13;
+    justify-self: end;
+}
+
+.main-content__second-section--landing .landing__img{
+    background-image: url(../image/landing/570x550/events.jpg);
+    grid-column: 7/13;
+}
+
+.main-content__second-section--landing .heading-secondary{
+    margin: 0;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    justify-self: start;
+}
+
+/* CARDS */
+
+.main-content__third-section--landing{
+    margin-top: 10rem !important;
+    width: 114rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+.card{
+    width: 32rem;
+    height: 46rem;
+    margin-bottom: 10rem !important;
+}
+
+.card--content{
+    height: 38.5rem;
+    padding: 11rem 3.5rem 2rem 3.5rem;
+}
+
+.card--content-title h3{
+    font-size: 2rem;
+
+}
+
+.card--content-title p{
+    font-size: 1.8rem !important;
+}
+
+.card-title{
+    width: 114rem;
+    margin: 0 auto;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    justify-self: center;
+    text-align: center;
+}
+
+.card-title h2{
+    margin-bottom: 5rem !important;
+}
+
+.card-one{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.card-two{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.card-three{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+
+}
