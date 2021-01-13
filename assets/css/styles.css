@@ -293,6 +293,11 @@ footer .contacts p{
     margin: 0 auto;
 }
 
+.heading-primary span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
 .heading-primary h2{
     font-size: 2.4rem;
     line-height: 2.9rem;
