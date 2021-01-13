@@ -71,6 +71,8 @@ grid-row: 1/2;
 justify-self: start;
 }
 
+
+
 .overlay--winter{
     background-color:rgba(16, 159, 222, .5);
 }
@@ -105,8 +107,20 @@ justify-self: start;
     background-color:rgba(212, 105, 74, .5)
 }
 
+/* ========================
+CODE FOR DESKTOP VERSION
+============================*/
 
+.main__seasons--winter .heading-secondary{
+    display: none;
+}
 
+.main__season--spring-desktop,
+.main__season--winter-desktop,
+.main__season--summer-desktop,
+.main__season--autumn-desktop{
+    display: none;
+}
 
 
 
