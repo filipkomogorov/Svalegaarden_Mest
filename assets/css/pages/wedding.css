@@ -40,3 +40,9 @@ background-position: center;
 background-repeat: no-repeat;
 
 }
+
+/* CODE FOR WEB VERSION ONLY */
+
+.landing__img{
+    display: none;
+}

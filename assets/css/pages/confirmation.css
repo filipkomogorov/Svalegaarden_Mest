@@ -84,3 +84,11 @@
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
+
+/* CODE FOR DESKTOP VERSION ONLY */
+
+.landing__img{
+    display: none;
+}
+
+
