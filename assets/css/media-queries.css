@@ -351,9 +351,7 @@ MEDIA QUERY FOR LAPTOPS
 
 /* CONTACT FORM */
 
-aside{
-    margin-top: 10rem;
-}
+
 
 aside .heading-tertiary h3{
     text-align: center;
@@ -966,6 +964,7 @@ CONFIRMATION PAGE SPECIFIC CODE FROM CONFIRMATION.CSS
     margin: 0 auto;
     height: 55rem !important;
     background: none;
+    margin-bottom: 5rem;
 
     display: grid;
     grid-template-rows: 1fr;
@@ -1017,6 +1016,10 @@ CONFIRMATION PAGE SPECIFIC CODE FROM CONFIRMATION.CSS
 
 .main-content__fourth-section--confirmation .landing__img{
     background-image: url(../image/events/Confimation/570x550/desserts.jpg);
+}
+
+.main-content__fourth-section--confirmation{
+    margin-bottom: 10rem;
 }
 
 .main-content--confirmation .heading-secondary ul li{
