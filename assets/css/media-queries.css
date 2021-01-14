@@ -152,6 +152,7 @@ LANDIGN PAGE SPECIFIC CODE FROM LANDING.CSS
     background-image: url(../image/hero_images/landing_desktop.jpg);
 }
 
+
 .card{
     width: 35rem;
     height: 50rem;
@@ -160,6 +161,10 @@ LANDIGN PAGE SPECIFIC CODE FROM LANDING.CSS
 .card__img{
     width: 18rem;
     height: 18rem;
+}
+
+.card-title{
+    margin-bottom: 5rem !important;
 }
 
 
@@ -416,6 +421,7 @@ footer .contacts{
 .paragraph-long p{
     font-size: 1.8rem;
     line-height: 2.7rem;
+    margin-bottom: 3rem;
 }
 
 .paragraph-short p{
@@ -442,6 +448,9 @@ footer .contacts{
 /*=======================================
 LANDIGN PAGE SPECIFIC CODE FROM LANDING.CSS
 ===========================================*/
+.main-content{
+    display: block;
+}
 
 .header-landing{
     background-image: url(../image/hero_images/landing_desktop.jpg);
@@ -841,9 +850,13 @@ EVENTS PAGE SPECIFIC CODE FROM EVENTS.CSS
     background-image: url(../image/hero_images/events_desktop.jpg);
 }
 
+.main-content__first-section{
+    height: 115rem
+}
+
 .photo-wedding,
 .photo-confirmation{
-    display: none;
+    display: none !important;
 }
 
 .event__wedding .heading-secondary,

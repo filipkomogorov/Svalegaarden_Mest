@@ -1,0 +1,67 @@
+.header-gallery{
+    background-image: url(../../image/hero_images/home.jpg);
+}
+
+.gallery__subtitle{
+    width: 100%;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.gallery__subtitle h3{
+    font-size: 2rem !important;
+    color: #fff !important;
+}
+
+.gallery__first-section,
+.gallery__second-section,
+.gallery__third-section{
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.gallery__subtitle{
+    grid-column: 1/13;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+.image_one{
+    grid-column: 1/7;
+    grid-row: 2/3;
+}
+
+.image_two{
+    grid-column: 7/13;
+    grid-row: 2/3;
+}
+
+.image_three{
+    grid-column: 1/7;
+    grid-row: 3/4;
+}
+
+.image_four{
+    grid-column: 7/13;
+    grid-row: 3/4;
+}
+
+.image_five{
+    grid-column: 1/7;
+    grid-row: 4/5;
+}
+
+.image_six{
+    grid-column: 7/13;
+    grid-row: 4/5;
+}

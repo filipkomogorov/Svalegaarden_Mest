@@ -5,10 +5,22 @@
     background-repeat: no-repeat;
 }
 
+.main-content__first-section{
+    height: 30rem;
+    margin-bottom: 4rem !important;
+}
+
 .photo-wedding{
+    height: 30rem;
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.photo-wedding img,
+.photo-confirmation img{
+    width: 100%;
+    height: 100%;
 }
 
 .photo-confirmation{
