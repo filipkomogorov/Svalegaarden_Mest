@@ -24,6 +24,8 @@
 }
 
 .photo-confirmation{
+    height: 30rem;
+
     position: absolute;
     right: 100%;
     top: 0;
@@ -56,7 +58,7 @@
 .arrow-right,
 .arrow-left{
     box-sizing: border-box;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     color: #191c27;
     background-color: rgba(255, 255, 255, .3);
